@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.accueil{
+    background-image: url(./images/landing.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+    position: relative;
+}
+#logo{
+    height: 30px;
+    will-change: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(128, 128, 128, 50%);
+    width: 100%;
+    padding: 15px;
+}
+#nav{
+    margin-right: 20px;
+}
+.titre{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+    width: 700px;
+}
+#P1{
+    background-color: white;
+    height: 1080px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+#P1 h1{
+    top: 35%;
+    color: rgba(128,128,128,40%);
+    font-size: 100px;
+}
+.box1{
+    border: outset;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    text-align: center;
+}
+.box1:hover{
+    box-shadow: 20px 20px 20px rgb(169, 167, 167);
+}
+.box1 h2{
+    margin-top: 20%;
+}
+.box2{
+    border: outset;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}
+.box2:hover{
+    box-shadow: 20px 20px 20px rgb(169, 167, 167);
+}
+.box2 h2{
+    margin-top: 20%;
+}
+.box3{
+    border: outset;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}
+.box3:hover{
+    box-shadow: 20px 20px 20px rgb(169, 167, 167);
+}
+.box3 h2{
+    margin-top: 20%;
+}
+.box4{
+    border: outset;
+    height: 300px;
+    width: 500px;
+    text-align: center
+}
+.box4:hover{
+    box-shadow: 20px 20px 20px rgb(169, 167, 167);
+}
+.box4 h2{
+    margin-top: 20%;
+}
+.box5{
+    border: outset;
+    height: 300px;
+    width: 500px;
+    text-align: center
+}
+.box5:hover{
+    box-shadow: 20px 20px 20px rgb(169, 167, 167);
+}
+.box5 h2{
+    margin-top: 20%;
+}
+.box6{
+    border: outset;
+    height: 400px;
+    width: 500px;
+    background-image: url(./images/services.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box6:hover{
+    box-shadow: 20px 20px 20px rgb(169, 167, 167);
+}
+#barrette{
+    background-color: rgb(44, 71, 85);
+    height: 400px;
+    width: 100px;
+}
+#P2{
+    background-color: rgb(242, 240, 240);
+    height: 1080px;
+    padding-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+#P2 h1{
+    top: 10%;
+    color: rgba(128,128,128,40%);
+    font-size: 100px;
+}
+.box7{
+    background-color: white;
+    border: outset;
+    height: 600px;
+    width: 500px;
+}
+.box7 h2,p{
+    padding: 10px;
+}
+.box8{
+    background-color: white;
+    border: outset;
+    height: 600px;
+    width: 500px;
+}
+.box8 h2,p{
+    padding: 10px;
+}
+.box9{
+    background-color: white;
+    border: outset;
+    height: 600px;
+    width: 500px;
+}
+.box9 h2,p{
+    padding: 10px;
+}
+#sm{
+    position: absolute;
+    padding: 20px;
+    font-size: 20px;
+    bottom: 5cm;
+}
+#P3{
+    background-color: white;
+    height: 400px;
+    padding: 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+#P3 h1{
+    top: 10%;
+    color: rgba(128,128,128,40%);
+    font-size: 100px;
+}
+.box10{
+    background-color: white;
+    border: outset;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    position: relative;
+}
+#mini1{
+    background-color: rgb(235, 236, 237);
+    width: 100px;
+    height: 400px;
+}
+#mini2{
+    background-color: white;
+    width: 100px;
+    height: 400px;
+}
+#mini3{
+    background-color: rgb(44, 71, 85);
+    width: 100px;
+    height: 400px;
+}
+#abt{
+    position: absolute;
+    padding: 15%;
+}
+.box11{
+    background-color: white;
+    border: outset;
+    height: 300px;
+    width: 900px;
+    align-self: center;
+    margin-right: 10cm;
+}
