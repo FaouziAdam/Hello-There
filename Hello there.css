@@ -141,6 +141,14 @@
     border: outset;
     height: 600px;
     width: 500px;
+    overflow: hidden;
+}
+.box7 img:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+.box7 img{
+    transition: 1s;
 }
 .box7 h2,p{
     padding: 10px;
@@ -150,6 +158,14 @@
     border: outset;
     height: 600px;
     width: 500px;
+    overflow: hidden;
+}
+.box8 img:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+.box8 img{
+    transition: 1s;
 }
 .box8 h2,p{
     padding: 10px;
@@ -159,6 +175,14 @@
     border: outset;
     height: 600px;
     width: 500px;
+    overflow: hidden;
+}
+.box9 img:hover{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+.box9 img{
+    transition: 1s;
 }
 .box9 h2,p{
     padding: 10px;
@@ -218,3 +242,26 @@
     align-self: center;
     margin-right: 10cm;
 }
+#P4{
+    background-color: rgb(242, 240, 240);
+    height: 100px;
+    padding-top: 20%;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    position: relative;
+}
+#P4 h1{
+    top: 10%;
+    color: rgba(128,128,128,40%);
+    font-size: 100px;
+    margin-left: 37%;
+}
+#ecr{
+    position: absolute;
+    margin-bottom: 50%;
+} 
+#ecr p{
+    text-align: center;
+    font-size: 30px;
+} 
